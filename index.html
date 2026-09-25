@@ -1,11 +1,165 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SPGCG</title>
+<title>SPGCG • Suvan AI</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#000;
+color:white;
+}
+
+header{
+background:linear-gradient(90deg,#00ffff,#0066ff);
+padding:20px;
+text-align:center;
+font-size:35px;
+font-weight:bold;
+}
+
+.login{
+width:320px;
+margin:30px auto;
+background:#111;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 20px cyan;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:8px 0;
+border:none;
+border-radius:8px;
+}
+
+button{
+padding:10px 15px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+.loginbtn{
+background:cyan;
+font-weight:bold;
+width:100%;
+}
+
+.section{
+background:#111;
+margin:20px;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 10px #00ffff;
+}
+
+.member{
+display:flex;
+justify-content:space-between;
+padding:10px;
+background:#222;
+margin:10px 0;
+border-radius:10px;
+}
+
+.ai{
+position:fixed;
+bottom:20px;
+right:20px;
+width:80px;
+height:80px;
+border-radius:50%;
+background:cyan;
+color:black;
+font-size:40px;
+font-weight:bold;
+box-shadow:0 0 30px cyan;
+}
+
+.games button{
+margin:5px;
+background:#6a00ff;
+color:white;
+}
+
+.callbtn{
+background:#00ff88;
+}
+
+.videobtn{
+background:#0088ff;
+color:white;
+}
+</style>
 </head>
-<body style="background:black;color:white;text-align:center;font-family:Arial;">
-    <h1>🚀 Welcome to SPGCG</h1>
-    <h2>🤖 Suvan AI</h2>
-    <p>Suvigya Paliwal Garge's Calling Group</p>
+
+<body>
+
+<header>
+🚀 SPGCG • Suvan AI
+</header>
+
+<div class="login">
+<h2>🔐 Login</h2>
+
+<input placeholder="Name">
+<input placeholder="Phone Number">
+<input placeholder="Password (spg)" type="password">
+
+<button class="loginbtn">
+Enter SPGCG
+</button>
+</div>
+
+<div class="section">
+<h2>📞 Members</h2>
+
+<div class="member">
+<span>Suvigya</span>
+<div>
+<button class="callbtn">🎤 Voice</button>
+<button class="videobtn">📹 Video</button>
+</div>
+</div>
+
+<div class="member">
+<span>Member 2</span>
+<div>
+<button class="callbtn">🎤 Voice</button>
+<button class="videobtn">📹 Video</button>
+</div>
+</div>
+
+</div>
+
+<div class="section">
+<h2>💬 Group Chat</h2>
+<p>Chat feature coming soon...</p>
+</div>
+
+<div class="section">
+<h2>📢 Announcements</h2>
+<p>Welcome to SPGCG!</p>
+<p>Meeting every Saturday.</p>
+</div>
+
+<div class="section games">
+<h2>🎮 Games</h2>
+
+<button>🐍 Snake</button>
+<button>❌ Tic Tac Toe</button>
+<button>🧠 Quiz</button>
+<button>🚀 Space Game</button>
+
+</div>
+
+<button class="ai">
+S
+</button>
+
 </body>
 </html>
